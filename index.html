@@ -10,16 +10,16 @@
 <body>
     <div class="modifiche">
         <form>
-            <input type="range" name="ampiezza" min="1" max="10" step="0.1"/>
-            <input type="range" name="frequenza" min="1" max="10" step="0.1"/>
+            <input type="range" name="ampiezza" min="10" max="100" step="10" value="50"/>
+            <input type="range" name="frequenza" min="1" max="10" step="0.1" value="5"/>
             <input type="range" name="fase" min="1" max="10" step="0.1"/>
         </form>
     </div>
     
     
 <script>
-    let ampiezza = 100
-    let frequenza = 2
+    let ampiezza = 50
+    let frequenza = 5
     let fase = 0
     let angle = 0
     let incremento = 0.01
