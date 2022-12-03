@@ -34,6 +34,11 @@
         frequenza=frequencyInput.value
     })
 
+    let faseInput=document.querySelector("[name=fase]")
+    faseInput.addEventListener("input",function(e){
+        fase=faseInput.value
+    })
+
     function setup(){
     createCanvas(400, 400)
     background(220)
